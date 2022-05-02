@@ -12,6 +12,10 @@ const app = new Vue({
             this.emails.push(response.data.response)
 
         })
+        /* .catch(error => {
+            console.error(error)
+            this.error = error.message
+        }) */
         i++
     }
         
